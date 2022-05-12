@@ -15,14 +15,41 @@
         </p>
         <p>
             <label for="LastName"> Last Name</label>
-            <input type="text" name="Lastname" placeholder="Enter your Last Name" id="lastname">
+            <input type="text" name="Lastname" placeholder="Enter your Last Name" id="lastname" required>
         </p>
         <p>
             <label for=" password"> Password</label>
             <input type="password" name="password" placeholder="Enter Password" id="Lastname">
         </p>
+
+        <p> 
+            <label for="fileupload">Upload file</label>
+            <input type="file" name="" id="file upload" required>
+        </p>
+
+        <p>
+            <label for=""> Date</label>
+            <input type="Date" name="" id="Date">
+        </p>
+
+        <p>
+            <label for="color">Pick a color</label>
+            <input type="color" name="" id="color">
+        </p>
+
+        <p>
+            <label for="time">Time</label>
+            <input type="time" name="" id="Time">
+        </p>
+
+        <p>
+            <label for="Search">Search</label>
+            <input type="search" placeholder="Search" name="" id="Search"> 
+        </p>
+
         <br>
         <fieldset>
+
             <legend> Gender</legend>
 
             <p>
@@ -65,25 +92,23 @@
             <label for=""> Favourite Coffee</label>
             <select name="" id="">
                 <optgroup>
-                    <option value="">Latte</option>
-                    <option value="">Cappucino</option>
-                    <option value="">Milk</option>
-                    <option value="">Blacktan</option>
+                    <option value="Latte">Latte</option>
+                    <option value="Cappucino">Cappucino</option>
+                    <option value="MIlk">Milk</option>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Green Tea">Greeen Tea</option>
                 </optgroup> 
-                
-                <optgroup>
-
-
-                </optgroup>      
-
-            </select>
+              </select>
 
             <fieldset>
                 <legend>Send me a Message</legend>
                 <textarea name="" placeholder="Type In Your Message Here" id="" cols="30" rows="10"></textarea>
             </fieldset>
             <br>
+            <button type="reset">Reset</button>
             <button type="submit"> Submit</button>
+            <input type="submit" value="Login">
+           
 
             </form>
 
